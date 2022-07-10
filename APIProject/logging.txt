@@ -1,0 +1,185 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Fri, 03 Jun 2022 05:25:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IJHw%2BOuDSu6JVxWK3DPAL5apN5MR7ym9xo9wydjGxHCnrdic%2FNEunIo6hoA6RJceNmt6wwiPS5VRfphocPgwuEe0K9LAwDxEOnwML0olN55L1WCK87IinY2s0r8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 715602611dcd7771-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Fri, 03 Jun 2022 05:25:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LJk4YCajZ9eXmwJ3TxJzGQsfChOgR6toyhAVI731W0cWX2pZMhwrTSNCCVCdx8vT9ZP%2F1yz6qufVXSpMLQb6cMeUfALMBD3e7UtTiM9d27Sqb9XkyAduzT%2F4ukY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 715602662b897771-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Missing password"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Fri, 03 Jun 2022 05:25:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u7e77QAarQ7EH58XdkMCfoW%2FN746OV7fSZBk6tnbdFEGZpvf1ivykB2eIUh9SvzyQ4SA%2BRpAaS69ulngPE2eJfGU1H5izU9v7Mras3d6rjdkpWKn8IV3kBNG1Zw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7156026c8aec7771-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "sydney@fife",
+    "password": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Fri, 03 Jun 2022 05:25:40 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EXWgg1%2BzRjDSJsV7tJFhF1bMDNdJm%2FX5B6tqub89xByltjzCKKCtXG%2Fz2E%2FqrMzvmvm4o8EqRjwrsfrQo3BjtZCziYlo8nKqn7AhALmCLAvQtd2on4aXFCVwLtw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7156026f6e3e7771-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Missing password"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+HTTP/1.1 200 OK
+Date: Fri, 03 Jun 2022 05:25:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-lksTCEwagl1JUQbML1qsoAO10r4"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q1uAN5tOPJOlSPTPyM1u6%2FJkbsuahMR8834AZ%2FlaoHW6hQEF9ODqd%2F9sv9YgtGmBIfK8FWaZQE7ZkRX%2BPqnQJqeVSuWaDQyzVy2SOjkefuQEsJxfJZkXsa2iqHA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 71560273ebae7771-LHR
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2022-06-03T05:25:41.137Z"
+}
